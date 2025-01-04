@@ -49,11 +49,12 @@ img {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 .biography h2 {
   margin-bottom: 20px;
 }
-a {
+#youtube {
   font-size: 24px;
   color: darkred;
   text-decoration: none;
@@ -61,5 +62,16 @@ a {
 }
 .list {
   margin-top: 20px;
-  margin-bottom: 200px;
+  margin-left: 100px;
+  /* margin-bottom: 200px; */
+}
+.biography li {
+  margin-bottom: 15px;
+}
+footer {
+  margin: 50px 0;
+  text-align: end;
+}
+#wikipedia {
+  font-size: none;
 }
