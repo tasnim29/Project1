@@ -15,9 +15,25 @@
 .image_container,img{
     height: 300px;
     width: 320px;
+    
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top_section h2{
+    font-size: 50px;
+    font-weight: bold;  
+    color: #1D1E4C;
+}
+.top_section h3{
+    font-size: 30px;
+    color: #1D1E4C;
+    text-align: end;
 }
 .top_section{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    align-items: flex-end;
 }
